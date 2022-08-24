@@ -1,0 +1,24 @@
+.loginform {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    align-content: left;
+}
+
+.boxasbtn{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.hdcrd{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    font-style: normal;
+    color: #3c4043;
+  }
+
+  .txor{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    font-style: normal;
+    color: #3c4043;
+  }
