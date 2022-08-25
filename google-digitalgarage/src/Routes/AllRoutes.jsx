@@ -3,6 +3,7 @@ import Certification from "./Certification";
 import Course from "./Course";
 import Home from "./Home";
 import OnlineCourse from "./OnlineCourse";
+import Registeration from "./Registeration";
 import SignIn from "./SignIn";
 
 const AllRoutes = () => {
@@ -12,7 +13,7 @@ const AllRoutes = () => {
             <Route path="/onlinecourses" element={<OnlineCourse/>} />
             <Route path="/certification" element={<Certification/>} />
             <Route path="/signin" element={<SignIn />} />
-            <Route path="/register" element={<h1>Register</h1>} />
+            <Route path="/register" element={<Registeration/>} />
             <Route path="/onlinecourses/:id" element={<Course/>}/>
         </Routes>
     )
