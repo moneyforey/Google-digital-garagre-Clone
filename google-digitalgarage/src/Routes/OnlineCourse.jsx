@@ -1,6 +1,21 @@
+import { Box, Flex } from "@chakra-ui/react";
+import Sidebar from "../OnlineCoursesSection/Sidebar";
+import TopSection from "../OnlineCoursesSection/TopSection";
+
 const OnlineCourse =()=>{
     return(
-        <h1>Online Course</h1>
+        <>
+        <TopSection/>
+        <Box>
+       <Flex>
+        <Sidebar/>
+
+        
+       </Flex>
+
+       </Box>
+
+        </>
     )
 }
 
