@@ -1,0 +1,43 @@
+.crsstk{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.txhd{
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    
+
+Color:
+#3c4043;
+}
+
+.txcr{
+
+    font-weight: 300;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 19px;
+    
+
+
+    Color:
+    #5f6368;
+
+}
+
+
+.txmh{
+
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 19px;
+    
+
+
+    Color:
+    #5f6368;
+
+}

@@ -1,0 +1,31 @@
+.tx{
+    text-align: center;
+    font-size:22px;
+    line-height:30px;
+    font-weight: 400;
+    font-style: normal;
+    color:rgba(0, 0, 0, 0.87);
+    margin-bottom: 25px;
+}
+
+.txwho{
+    text-align: center;
+    font-size:32px;
+    line-height:40px;
+    font-weight: 300;
+    font-style: normal;
+    color:#3c4043;
+    margin-bottom: 25px;
+}
+
+.txdes{
+    
+    font-size:18px;
+    line-height:30px;
+    font-weight: 400;
+    font-style: normal;
+    
+Color:
+#9aa0a6;
+   
+}
