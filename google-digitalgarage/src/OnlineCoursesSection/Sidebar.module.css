@@ -1,3 +1,20 @@
 .ctrbox{
-    margin: 50px;
+    margin: 2rem;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.att{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color:
+    #80868b;
 }

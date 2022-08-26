@@ -2,6 +2,7 @@ import { Box, Text } from "@chakra-ui/react";
 import styles from"./TopSection.module.css"
 
 const TopSection = () => {
+    
     return (
         <Box width='700px'  m={10}>
             <Text my={3} className={styles.txhd}>
