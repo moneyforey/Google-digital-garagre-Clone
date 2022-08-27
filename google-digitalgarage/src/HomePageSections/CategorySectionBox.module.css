@@ -1,0 +1,50 @@
+.bxcat{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.tx1cat{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: 
+    #3c4043;
+
+}
+
+.tx2cat{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    
+Color:
+#424242;
+
+}
+
+.hdbx{
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    
+
+    Color:
+    #3c4043
+}
+
+.txbx{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    
+
+    
+    Color:
+    #424242
+}
+
+.bxcat:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.01,1.01);
+}

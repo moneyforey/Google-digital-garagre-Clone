@@ -1,4 +1,6 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import styles from "./CategorySectionBox.module.css"
+import { Box, Flex, Image, Spacer, Stack, Text } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 const Categories =[
     {
@@ -20,18 +22,23 @@ const Categories =[
 
 const CategorySectionBoxes =()=>{
     return(
-        <Box>
-          <Text>Do things you never thought possible</Text>
-          <Text>
+        <Box m={20}>
+          <Text className={styles.hdbx}>Do things you never thought possible</Text>
+          <Text margin='auto' width='750px' className={styles.txbx}>
             Discover courses in topics designed to help expand your career, business and horizons and to upgrade your skills for a new digital world.
 
           </Text>
-          <Flex>
+          <Flex m={10} justify="space-around" gap={10}>
             {
-                Categories.map((cat)=> <Box key={cat.title}>
+                Categories.map((cat)=> <Box width="33%" p={10} className={styles.bxcat} key={cat.title}>
                     <Image src={cat.url} />        
-                    <Text>{cat.title}</Text>
+                    <Text my={5} className={styles.tx1cat}>{cat.title}</Text>
                     <Text>{cat.text}</Text>
+
+                    <Flex>
+                        <Spacer/>
+                        <ArrowForwardIcon boxSize='1.5em' color="#1a73e8"/>
+                    </Flex>
 
                 </Box>)
             }

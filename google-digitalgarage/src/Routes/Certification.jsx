@@ -1,6 +1,10 @@
+import SuccessStorySection from "../CertificatonsSectons/SuccessStorySection";
+
 const Certification =()=>{
     return(
-        <h1>Certification</h1>
+       <>
+       <SuccessStorySection/>
+       </>
     )
 }
 
