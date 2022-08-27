@@ -1,5 +1,6 @@
+import styles from "./MiddleSection.module.css"
 import { ArrowForwardIcon } from "@chakra-ui/icons";
-import { Box, Flex, Image, Text } from "@chakra-ui/react"
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react"
 
 const parteners = [
     {
@@ -27,33 +28,33 @@ const parteners = [
 const Middlesection = () => {
     return (
         <Box>
-            <Box >
-                <Text mx='50px'>
+            <Box bg='#fbfbfc ' p={10} >
+                <Text className={styles.tx1} mx='50px'>
                     We provide courses along with leading institutions and companies
                 </Text>
                 <Flex gap={7} mx='50px' >
                     {
-                        parteners.map((img) => <Image height='20px' src={img.url} key={img.title} />)
+                        parteners.map((img) => <Image height='20px' alt={img.title} src={img.url} key={img.title} />)
                     }
                 </Flex>
             </Box>
             <Box p='50px' color='white' bg="#1a73e8 ">
-                <Flex gap={10}>
-                    <Box alignItems='center' borderRadius='50%' bg='white'  w='5%'>
-                    <Image m={5} src='https://lh3.googleusercontent.com/N9jW0_MdICcLbzV1L-JcfAXr5QaadNKtc8HgH-KPixv3J9XaSnjLkru3dZl0dfNYR12hEsDkQM_WMXtXqe_ohTSx96E7gmFHwzpXPubIJlfV3ybeTxks=-rw' />
+                <Flex align='center' gap={10}>
+                    <Box height="80px" width="80px" borderRadius='50%' bg='white' >
+                    <Image m={7} src='https://lh3.googleusercontent.com/N9jW0_MdICcLbzV1L-JcfAXr5QaadNKtc8HgH-KPixv3J9XaSnjLkru3dZl0dfNYR12hEsDkQM_WMXtXqe_ohTSx96E7gmFHwzpXPubIJlfV3ybeTxks=-rw' />
                     </Box>
 
-                    <Box>
-                        <Text>
+                    <Box width='750px'>
+                        <Heading className={styles.hd}>
                         Did you know we also have webinars?
-                        </Text>
-                        <Text>
+                        </Heading>
+                        <Text  className={styles.tx2}>
                         Online sessions designed to help you develop skills in less than an hour. You can watch webinars live or register to take part in what is coming up.
                         </Text>
                     </Box>
 
                     <Box>
-                        <Text>
+                        <Text className={styles.tx3}>
                         Explore our webinars   <ArrowForwardIcon/>
                        
                         </Text>

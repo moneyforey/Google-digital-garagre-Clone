@@ -1,0 +1,30 @@
+.hd{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+}
+
+.tx1{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+    color: #424242;
+}
+
+.tx2{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    
+}
+
+.tx3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    
+}

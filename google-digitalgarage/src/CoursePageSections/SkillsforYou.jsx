@@ -52,8 +52,8 @@ const SkillsforYou=()=>{
     }
 
     return(
-        <Box>
-            <Text>
+        <Box m={20}>
+            <Text m={10} className={styles.hdskl}>
             Skills you'll learn
             </Text>
 

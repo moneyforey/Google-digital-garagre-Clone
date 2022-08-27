@@ -96,7 +96,7 @@ const Registeration = () => {
                     <Text py={5}>
                     Already have an account?  <Link href="/signin" color='blue'>Sign in.</Link></Text>
                     <Spacer />
-                    <Button onClick={handleClick} colorScheme='blue' borderRadius="1px" disabled={isError}>Sign in</Button>
+                    <Button onClick={handleClick} colorScheme='blue' borderRadius="1px" disabled={isError}>Continue</Button>
                 </Flex>
 
 

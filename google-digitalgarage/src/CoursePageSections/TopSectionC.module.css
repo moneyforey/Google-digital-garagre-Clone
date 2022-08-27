@@ -1,0 +1,26 @@
+.hd{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    
+Color:
+#3c4043;
+}
+
+.txtop{
+    font-weight: 400;
+    font-size:16px;
+    line-height: 26px;
+    
+Color:
+#9aa0a6;
+}
+
+.hd1{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    
+Color:
+rgba(0, 0, 0, 0.87);
+}
