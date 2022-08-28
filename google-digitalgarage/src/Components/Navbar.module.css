@@ -1,6 +1,10 @@
 
 .box{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 .menulist{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

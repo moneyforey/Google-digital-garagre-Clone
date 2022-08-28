@@ -17,18 +17,20 @@ import {
 import { useState } from "react";
 import styles from "./SignIn.module.css";
 import '../App.css';
+import { useNavigate } from "react-router-dom";
 
 
 const SignIn = () => {
     const [input, setInput] = useState('');
     const [placeholder, stePlaceholder] = useState('Email');
+    const navigate = useNavigate()
 
     const handleClickInput = () => {
         stePlaceholder("example@gmail.com")
     }
 
     const handleClick =()=>{
-
+       navigate("/")
     }
 
     const handleInputChange = (e) => setInput(e.target.value)
@@ -36,7 +38,7 @@ const SignIn = () => {
     const isError = input === ''
 
     return (
-        <Box>
+        <Box mt="100px">
             <Stack>
             <Text className={styles.hdcrd} pl={20} pt={10} >Sign in</Text>
             <Text  pl={20} pb={10}>Access your online courses and track your progress</Text>

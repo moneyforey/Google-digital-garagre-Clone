@@ -12,7 +12,7 @@ const TopSection=({data})=>{
 
     
     return(
-        <Box>
+        <Box mt="100px">
             
             <Flex  m={10} justify='space-evenly'>
              <Stack>
