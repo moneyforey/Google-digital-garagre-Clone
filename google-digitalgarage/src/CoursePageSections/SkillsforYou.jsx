@@ -65,7 +65,9 @@ const SkillsforYou=()=>{
                     skills.map((el)=>
                         <Box key={el.id}
                          onClick={()=>handleChangeDesc(el.id)}>
-                            {el.title}
+                           <Text className={styles.hdskl1}>
+                           {el.title}
+                            </Text> 
                         </Box>
                     )
                 }
@@ -73,8 +75,8 @@ const SkillsforYou=()=>{
                 <ChevronRightIcon className={styles.arrbtn} color='#9b9b9d ' boxSize='2em'/>
             </Flex>
             <Divider/>
-            <Box>
-                {desc}
+            <Box px={20} pt={20}>
+               <Text  className={styles.hdskl2}> {desc}</Text>
             </Box>
 
         </Box>

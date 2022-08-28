@@ -3,7 +3,7 @@ import { Flex, Box, Text, Image,Button } from "@chakra-ui/react";
 import styles from"./TopSection.module.css"
 const TopSection = () => {
     return (
-        <Flex p={5}>
+        <Flex mt="100px" p={5}>
             <Box>
                 <Text className={styles.txhd}>
                     Learn the skills of the future

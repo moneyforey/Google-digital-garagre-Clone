@@ -1,0 +1,49 @@
+.hd1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    
+Color:
+rgba(0, 0, 0, 0.87)
+}
+
+.hd2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+   
+    
+Color:
+#3c4043
+}
+
+.tx1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+   
+    
+
+    Color:
+    #5f6368
+}
+
+.tx2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+   
+    
+
+    Color:
+    #174ea6
+}
+
+.bxfx{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.bxfx:hover{
+    transform: scale(1.01,1.01);
+}

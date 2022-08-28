@@ -14,6 +14,7 @@ import {
     Text
 } from "@chakra-ui/react"
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./SignIn.module.css";
 
 
@@ -21,13 +22,14 @@ import styles from "./SignIn.module.css";
 const Registeration = () => {
     const [input, setInput] = useState('');
     const [placeholder, stePlaceholder] = useState('Email');
+    const navigate = useNavigate()
 
     const handleClickInput = () => {
         stePlaceholder("example@gmail.com")
     }
 
     const handleClick = () => {
-
+          navigate("/signin")
     }
 
     const handleInputChange = (e) => setInput(e.target.value)
@@ -35,7 +37,7 @@ const Registeration = () => {
     const isError = input === ''
 
     return (
-        <Box>
+        <Box mt="100px">
             <Stack>
                 <Text className={styles.hdcrd} pl={20} pt={10} >
                     Create your account

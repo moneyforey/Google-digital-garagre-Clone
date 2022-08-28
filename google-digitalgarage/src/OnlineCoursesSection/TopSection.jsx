@@ -4,7 +4,7 @@ import styles from"./TopSection.module.css"
 const TopSection = () => {
     
     return (
-        <Box width='700px'  m={10}>
+        <Box  m={10} mt="100px" width='700px' >
             <Text my={3} className={styles.txhd}>
                 Online courses
             </Text>
