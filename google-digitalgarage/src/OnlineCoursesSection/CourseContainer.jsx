@@ -11,7 +11,7 @@ const CourseContainer =()=>{
     const [courses,setCourses] = useState([]);
     const [no_of_courses,setNo_of_Courses] = useState()
     useEffect(()=>{
-        axios(`http://localhost:5000/course`).then((res)=>{
+        axios(`https://my-mock-server.onrender.com/course`).then((res)=>{
         console.log(res.data)    
         setCourses(res.data)
         setNo_of_Courses(res.data.length)

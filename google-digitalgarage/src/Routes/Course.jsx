@@ -1,4 +1,3 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -21,7 +20,7 @@ const Course=()=>{
     console.log(params);
 
     useEffect(()=>{
-        axios(`http://localhost:5000/course/${id}`)
+        axios(`https://my-mock-server.onrender.com/course/${id}`)
         .then((res)=>{
         console.log(res.data)    
         setData(res.data)
@@ -32,11 +31,6 @@ const Course=()=>{
     console.log(data);
     return(
         <>
-         {/* <Box>
-            <Flex>
-              <Text>{data.title}</Text>
-            </Flex>
-        </Box> */}
         <TopSection data={data}/>
         <SkillsforYou/>
         <WhoisitforyouSection/>
