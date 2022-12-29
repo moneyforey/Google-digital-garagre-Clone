@@ -1,5 +1,5 @@
 import styles from "./SuccessStorySection.module.css"
-import { Box, Divider, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Divider, Flex,Image, Stack, Text } from "@chakra-ui/react";
 import { useState } from "react";
 
 const Stories = [

@@ -1,5 +1,5 @@
 import styles from "./Sidebar.module.css"
-import { Box, Button, Checkbox, Divider, Flex, Icon, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Button,  Divider, Flex,  Image, Stack,} from "@chakra-ui/react";
 import CategoryBox from "./CategoryBox";
 
 const Attributes = [

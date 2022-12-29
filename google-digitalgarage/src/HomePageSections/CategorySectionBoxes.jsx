@@ -1,5 +1,5 @@
 import styles from "./CategorySectionBox.module.css"
-import { Box, Flex, Image, Spacer, Stack, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Spacer,  Text } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 const Categories =[
